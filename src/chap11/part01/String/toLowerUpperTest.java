@@ -35,6 +35,12 @@ public class toLowerUpperTest {
 			System.out.println("두 문자열은 다르다.");
 		}
 		
+		if(str1.equalsIgnoreCase(str7)) { // 대소문자 구분 x
+			System.out.println("두 문자열은 같다."); 
+		} else {
+			System.out.println("두 문자열은 다르다.");
+		}
+		
 	}
 
 }
