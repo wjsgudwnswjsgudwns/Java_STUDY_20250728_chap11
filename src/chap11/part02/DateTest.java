@@ -11,7 +11,7 @@ public class DateTest {
 		Date nowTime = new Date();
 		System.out.println(nowTime.toString());
 		
-		SimpleDateFormat dateformat = new SimpleDateFormat("yyyy년 MM월 dd일 hh시 mm분 ss초");
+		SimpleDateFormat dateformat = new SimpleDateFormat("yyyy년 MM월 dd일 E요일 hh시 mm분 ss초");
 		String date2 = dateformat.format(nowTime);
 		System.out.println(date2);
 		
