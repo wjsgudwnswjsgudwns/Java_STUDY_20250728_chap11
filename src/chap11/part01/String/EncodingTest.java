@@ -17,7 +17,7 @@ public class EncodingTest {
 		
 		try {
 			byte[] bytes2 = str.getBytes("EUC-KR");
-			System.out.println(bytes2.length);
+			System.out.println(bytes2);
 			byte[] bytes3 = str.getBytes("UTF-8");
 			System.out.println(bytes3.length);
 		} catch (UnsupportedEncodingException e) {
